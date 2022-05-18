@@ -48,15 +48,41 @@
 
 											echo ($_Message_MementoMori_Header);
 
+/*
+ ===========================
+ +
+ + Display Memorial ID
+ +
+ ===========================
+*/
+
 if ($_GET["MemorialID"] == "") {
+
+/*
+ ===========================
+ + Display Memorial ID Images
+ ===========================
+*/
 
 if ($_GET["Tab"] == "Images") {
 
 } // [ + ] IF_GET_TAB_IS_IMAGES
 
+/*
+ ===========================
+ + Display Memorial GPS Location
+ ===========================
+*/
+
 if ($_GET["Tab"] == "GraveLocation") {
 
 } // [ + ] IF_GET_TAB_IS_GRAVELOCATION
+
+/*
+ ===========================
+ + Display Memorial Comments
+ ===========================
+*/
 
 if ($_GET["Tab"] == "Comments") {
 
